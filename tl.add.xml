@@ -1,0 +1,22 @@
+<additional>
+
+    <tlLogic id="C" type="static" programID="1" offset="0">
+
+        <!-- Phase order: NS green – all red – EW green – all red -->
+
+        <!-- NS Green -->
+        <phase duration="25" state="GGrrrrGGrrrr"/>  
+
+        <!-- All red -->
+        <phase duration="4"  state="rrrrrrrrrrrr"/>
+
+        <!-- EW Green -->
+        <phase duration="25" state="rrGGrrrrrrGG"/>
+
+        <!-- All red -->
+        <phase duration="4"  state="rrrrrrrrrrrr"/>
+
+    </tlLogic>
+
+</additional>
+

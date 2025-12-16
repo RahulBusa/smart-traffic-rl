@@ -1,0 +1,23 @@
+<connections>
+
+    <!-- North incoming -->
+    <connection from="NtoC" to="CtoS" fromLane="0" toLane="0"/> <!-- straight -->
+    <connection from="NtoC" to="CtoW" fromLane="1" toLane="0"/> <!-- left -->
+    <connection from="NtoC" to="CtoE" fromLane="1" toLane="1"/> <!-- right -->
+
+    <!-- South incoming -->
+    <connection from="StoC" to="CtoN" fromLane="0" toLane="0"/>
+    <connection from="StoC" to="CtoE" fromLane="1" toLane="1"/>
+    <connection from="StoC" to="CtoW" fromLane="1" toLane="0"/>
+
+    <!-- West incoming -->
+    <connection from="WtoC" to="CtoE" fromLane="0" toLane="0"/>
+    <connection from="WtoC" to="CtoN" fromLane="1" toLane="1"/>
+    <connection from="WtoC" to="CtoS" fromLane="1" toLane="0"/>
+
+    <!-- East incoming -->
+    <connection from="EtoC" to="CtoW" fromLane="0" toLane="0"/>
+    <connection from="EtoC" to="CtoS" fromLane="1" toLane="1"/>
+    <connection from="EtoC" to="CtoN" fromLane="1" toLane="0"/>
+
+</connections>

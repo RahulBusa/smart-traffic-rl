@@ -1,0 +1,13 @@
+<configuration>
+    <input>
+        <net-file value="4way.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+        <additional-files value="tl.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+        <step-length value="0.1"/>
+    </time>
+</configuration>
+
